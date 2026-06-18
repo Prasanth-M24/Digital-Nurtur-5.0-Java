@@ -1,0 +1,19 @@
+Big O Notation:
+    Big O notation is used to describe the time or space complexity of algorithms. Big-O is a way to express an upper bound of an algorithm’s time or space complexity.
+
+Best Case:
+- Linear: O(1) if element is first.
+- Binary: O(1) if middle is the target.
+
+Average Case:
+- Linear: O(n/2) -> O(n)
+- Binary: O(log n)
+ 
+Worst Case:
+- Linear: O(n)
+- Binary: O(log n)
+
+Comaprision:
+    Binary Search Algorithm is more efficent and faster than the Linear Search Algorithm.
+
+Binary Search Algorithm is suitable for the searching if the data is sorted. Linear Search works on both sorted and unsorted data but is less efficient for large datasets.
