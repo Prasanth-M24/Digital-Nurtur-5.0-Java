@@ -8,7 +8,6 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 @SpringBootApplication
-
 public class SpringLearnApplication {
 	private static final Logger logger = LoggerFactory.getLogger(SpringLearnApplication.class);
 
@@ -20,6 +19,6 @@ public class SpringLearnApplication {
 	public static void displayCountry(){
 		ApplicationContext context = new ClassPathXmlApplicationContext("country.xml");
 		Country country = (Country) context.getBean("country", Country.class);
-		logger.debug(country.toString());
+		logger.debug( "Country : {}" , country.toString());
 	}
 }
